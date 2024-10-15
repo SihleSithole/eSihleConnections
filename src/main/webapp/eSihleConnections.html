@@ -18,7 +18,7 @@
 	<!-- Open Graph Protocol (Facebook, LinkedIn) -->
 	<meta property="og:title" content="eSihleConnections | Web Developmet & Maintainance | Spring boot & Database Hosting">
 	<meta property="og:description" content="Get a secure, scalable and robust website | web application  with eSihle Connections!">
-	<meta property="og:image" content="https://esihleconnections.co.za/company_logo_2">
+	<meta property="og:image" content="https://esihleconnections-production.up.railway.app//company_logo_2">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
 	<meta property="og:url" content="https://esihleconnections.co.za/">
@@ -28,7 +28,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="SihleConnections | Web Developmet & Maintainance | Spring boot & Database Hosting">
 	<meta name="twitter:description" content="Get a secure, scalable and robust website | web application  with eSihle Connections!">
-	<meta name="twitter:image" content="https://esihleconnections.co.za/company_logo_2">
+	<meta name="twitter:image" content="https://esihleconnections-production.up.railway.app//company_logo_2">
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
@@ -304,7 +304,7 @@ textarea {
   <div class="modal-content">
     <span class="close-btn">&times;</span>
       <h2 align="center">We Improvise</h2>
-      <form>
+      <form action="/get-in-touch" method="post">
           <div class="form-row">
               <div class="form-group">
                   <label for="name">Name:</label>
@@ -645,7 +645,7 @@ textarea {
 
         if(name !== "" && email !== "" && message !== ""){
 
-          alert("</ Thank you, Information received. />");
+          alert("</ Thank you for your interest. Kindly check your emails, will get in touch soon. />");
               
         }
         else{
