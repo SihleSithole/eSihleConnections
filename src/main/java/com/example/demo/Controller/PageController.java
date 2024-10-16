@@ -19,7 +19,7 @@ public class PageController {
 	 @GetMapping("/")
      public String homePage() {
 	
-		 return "eSihleConnections.html";
+		 return "eSihleHome.html";
 		 
 	 }
 	 
